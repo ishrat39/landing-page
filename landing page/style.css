@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100%;
+    font-family: "Roboto Slab", serif;
+  }
+  
+  .container img {
+    height: 100vh;
+    bottom: 0;
+    /* top: -100px; */
+    width: 100%;
+  }
+  
+  nav {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .links a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .links .active {
+    color: #fff;
+    box-shadow: #fc0 1px 0 30px;
+  }
+  
+  .links a:hover {
+    color: #fff;
+    box-shadow: #fc0 1px 0 30px;
+  }
+  
+  .heading {
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+    text-shadow: #fc0 1px 0 30px;
+  }
+  .heading span {
+    font-size: 30px;
+    color: #fff;
+    text-shadow: #fc0 1px 0 30px;
+  }
+  
+  .title {
+    position: relative;
+    top: -450px;
+    bottom: 0px;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .title h1,
+  h2 {
+    position: relative;
+    text-shadow: #fc0 1px 0 10px;
+    color: #fff;
+    top: -110px;
+  }
+  
+  .title button {
+    height: 55px;
+    width: 180px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid;
+    background: none;
+    border-radius: 25px;
+    box-shadow: #fc0 1px 0 30px;
+    cursor: pointer;
+    background-color: #fc0;
+    color: #fff;
+    position: relative;
+    top: -90px;
+    bottom: 0px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+  }
+  
+  .card {
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .content {
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+  }
+  
+  .imgbox {
+    height: 260px;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .imgbox img {
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .imgbox:hover {
+    box-shadow: 3px 2px 40px blue;
+    border-radius: 20px;
+    border: 1px solid blue;
+  }
+  
+  .card button {
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #191825;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    box-shadow: 3px 4px 40px blue;
+    border-radius: 20px;
+  }
+  
+  b {
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-weight: 400;
+    color: #191825;
+  }
+  
+  .serviceHeading {
+    font-size: 40px;
+    background-color: lightblue;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #191825;
+  }
+  .about {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid red ; */
+  }
+  .imgbox1 {
+    height: 400px;
+    width: 50%;
+    /* border: 2px solid green; */
+    margin-top: 10%;
+    margin-left: 30px;
+    border-radius: 30px;
+  }
+  .imgbox1 img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+  }
+  .abouttext {
+    height: 400px;
+    width: 40%;
+    /* border: 2px solid red; */
+    margin-top: 10%;
+    margin-right: 30px;
+    text-align: center;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+  .abouttext p {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .Gallary {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Gallary img {
+    height: 300px;
+    width: 20%;
+    margin-top: 5%;
+  }
+  
+  /* woner page ----------- */
+  
+  .owner {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .ownerimg1 {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+  }
+  .ownerimg1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  .ownerimg1 img:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+  }
+  .ownertext {
+    height: 200px;
+    width: 400px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .ownertext p {
+    justify-content: center;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    align-items: center;
+  }
+  
+  span {
+    color: #191825;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .conatact {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .data {
+    height: 200px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #454545;
+    border-radius: 10px;
+  }
+  
+  .data:hover {
+    box-shadow: 2px 3px 40px blue;
+    border-radius: 10px;
+  }
+  
+  i {
+    font-size: 30px;
+  }
